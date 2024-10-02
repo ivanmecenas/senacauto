@@ -1,0 +1,21 @@
+<main>
+    <section class="main-section">
+        <img src="/assets/png/logo1.png" width="40%"/>
+    </section>
+    <section class="form-section">
+        <img src="/assets/png/asa-delta-big.png" width="10%" />
+        <h2>{{ title }}</h2>
+        <ng-content></ng-content>
+        <div class="btn-wrapper">
+            <button class="btn-primary" (click)="submit()" [disabled]="disablePrimaryBtn">
+                {{ primaryBtnText }}
+            </button>
+            <div class="divider">
+                <div></div>
+                <span>or</span>
+                <div></div>
+            </div>
+            <button class="btn-secondary" (click)="navigate()">{{ secondaryBtnText }}</button>
+        </div>
+    </section>
+</main>
