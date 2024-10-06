@@ -60,5 +60,4 @@ public class PessoaServico {
         return new ResponseEntity<RespostaModelo>(rm, HttpStatus.OK);
     }
 
-
 }
