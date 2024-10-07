@@ -25,5 +25,5 @@ public class AgendamentoModelo {
     private String turno;
     private LocalDate dataAgendamento;
     // FK DE VEÍCULO
-    // FK DE MOTORISTA
+    // FK DE PESSOA // Cada agendamento estará relacionado a uma pessoa usuario e motorista
 }

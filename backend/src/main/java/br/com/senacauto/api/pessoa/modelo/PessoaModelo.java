@@ -24,6 +24,7 @@ public class PessoaModelo {
     private String telefone;
     private String email;
     private String senha;
+    // fk de perfil ? essa pessoa pode ser um motorista e etc?
     // private Blob foto;
 
 }
